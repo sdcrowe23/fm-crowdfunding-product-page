@@ -23,10 +23,20 @@ html {
   color: hsl(228, 45%, 44%);
 }
 
+/* Button */
+
+button {
+  padding: 17px 40px;
+  /* background-color: #147a73; */
+  background-color: #3cb3ab;
+  color: white;
+}
+
 /* Navbar */
 
 .hero {
-  background: url(/imgs/image-hero-desktop.jpg) no-repeat center;
+  background: linear-gradient(0, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.75)),
+    url(/imgs/image-hero-desktop.jpg) no-repeat center;
   min-height: 400px;
 }
 
@@ -56,6 +66,10 @@ html {
 
 @media screen and (max-width: 767px) {
   /* Navbar */
+
+  .hero {
+    min-height: 300px;
+  }
 
   .hamburger-toggler {
     border: none;
