@@ -35,6 +35,23 @@ html {
   color: hsl(0, 0%, 100%);
 }
 
+/* Section one: */
+.main-container {
+  max-width: 720px;
+  position: relative;
+  top: -80px;
+  z-index: 0;
+}
+
+.back-project {
+  background: #ffffff;
+}
+
+.logo-master {
+  position: absolute;
+  top: -30px;
+}
+
 /* Media Quiery */
 
 @media screen and (max-width: 767px) {
