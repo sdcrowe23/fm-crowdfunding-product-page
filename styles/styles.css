@@ -70,6 +70,10 @@ ul {
   top: -30px;
 }
 
+.bold {
+  font-weight: 800;
+}
+
 /* Media Quiery */
 
 @media screen and (max-width: 767px) {
