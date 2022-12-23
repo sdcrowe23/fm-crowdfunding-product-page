@@ -15,6 +15,10 @@ html {
   font-family: "Commissioner", sans-serif;
 }
 
+body {
+  background-color: #f2f2f2;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -30,6 +34,10 @@ button {
   /* background-color: #147a73; */
   background-color: #3cb3ab;
   color: white;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* Navbar */
