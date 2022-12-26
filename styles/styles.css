@@ -34,6 +34,11 @@ button {
   /* background-color: #147a73; */
   background-color: #3cb3ab;
   color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #147a73;
 }
 
 ul {
@@ -72,6 +77,29 @@ ul {
 
 .bold {
   font-weight: 800;
+}
+
+.modal-dialog {
+  max-width: 730px;
+}
+
+.sold-out {
+  opacity: 0.5;
+}
+
+.pledge-btn_input,
+.pledge-btn_submit {
+  outline: none;
+  border: none;
+}
+
+.pledge-btn_submit {
+  background-color: #3cb3ab;
+  color: #ffffff;
+}
+
+.pledge-btn_submit:hover {
+  background-color: #147a73;
 }
 
 /* Media Quiery */
