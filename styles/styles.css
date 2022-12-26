@@ -87,6 +87,9 @@ ul {
   opacity: 0.5;
 }
 
+.hide-pledge {
+  display: none;
+}
 .pledge-btn_input,
 .pledge-btn_submit {
   outline: none;
@@ -100,6 +103,10 @@ ul {
 
 .pledge-btn_submit:hover {
   background-color: #147a73;
+}
+
+footer p {
+  opacity: 0.5;
 }
 
 /* Media Quiery */

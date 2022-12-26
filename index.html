@@ -143,7 +143,11 @@
         </ul>
       </section>
     </main>
-    <!-- Modal -->
+    <footer class="text-center mb-5">
+      <p>Challenge by Frontend Mentor. Coded by Scottie Crowe.</p>
+    </footer>
+
+    <!-- Pledge Modal -->
     <div class="modal" tabindex="-1" id="pledgeModal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -197,15 +201,15 @@
                         <span class="input-group-text">$</span>
                         <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
                         <span class="input-group-text">.00</span>
-                        <input class="ms-3  p-3 rounded border pledge-btn_submit" type="submit" name="" id=""
-                          value="Continue">
+                        <button class="ms-3  p-3 rounded border rounded-pill pledge-btn_submit" type="button" name=""
+                          id="" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continue</button>
                       </div>
                     </div>
                   </div>
                 </label>
               </div>
               <!-- Card option 3 -->
-              <div class="card d-flex flex-row py-4 px-3 mb-3">
+              <div class=" card d-flex flex-row py-4 px-3 mb-3">
                 <div class="card-input align-self-start flex-grow-1 px-3">
                   <input type="radio" class="" name="pledge">
                 </div>
@@ -219,7 +223,8 @@
                       </p>
                     </div>
                     <div class="card-copy">
-                      <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our
+                      <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be
+                        added to our
                         Backer member list.
                         Shipping is included.</p>
                     </div>
@@ -231,8 +236,8 @@
                         <span class="input-group-text">$</span>
                         <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
                         <span class="input-group-text">.00</span>
-                        <input class="ms-3  p-3 rounded border pledge-btn_submit" type="submit" name="" id=""
-                          value="Continue">
+                        <button class="ms-3  p-3 rounded border rounded-pill pledge-btn_submit" type="button" name=""
+                          id="" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continue</button>
                       </div>
                     </div>
                   </div>
@@ -253,13 +258,14 @@
                       </p>
                     </div>
                     <div class="card-copy">
-                      <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll
+                      <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank
+                        you. You’ll
                         be added to our Backer
                         member list.
                         Shipping is included.</p>
                     </div>
                   </div>
-                  <div class="card-pledge d-flex flex-sm-row flex-column border-top pt-3 d-flex flex-row">
+                  <div class="card-pledge d-flex flex-sm-row flex-column border-top pt-3 d-flex flex-row d-none">
                     <p class="my-0 mb-3 mb-sm-0 me-auto">Enter your pledge</p>
                     <div class="inputs d-flex">
                       <div class="input-group mb-3">
@@ -275,6 +281,26 @@
               </div>
               <!-- Card options end -->
             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Success modal -->
+    <div class="modal text-center p-4" id="exampleModalToggle2" aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel2">Thanks for your support!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/imgs/icon-check.svg" class="my-4" alt="">
+            <p class="mb-4">Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide.
+              You will get
+              an email once
+              our campaign is completed.</p>
+            <button class="rounded-pill mb-4" data-bs-dismiss="modal" aria-label="Close">Got it!</button>
           </div>
         </div>
       </div>
